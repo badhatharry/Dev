@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height:100%;
+}
+
+html, body{
+    height:100%;
+    width:100%;
+    /* //background-color: ##F3F2EFF0F0F0; */
+    background-color:#F3F2EF;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+header{
+    width: 100%;
+    background-color:#FFFFFF;
+    height:8%;
+}
+.header{
+    margin:auto;
+    width: 85%;
+    /* //background-color: blue; */
+    display: flex;
+    
+    
+}
+.header .logoBox{
+    height: 80%;
+    /* //background: rgb(88, 87, 87); */
+    display: flex;
+    align-items: center;
+    padding-top:  1.0%;
+    width:33%;
+    
+}
+/* .header .logoBox{
+    padding: 5px; 
+   height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+.header .logoBox .search{
+    
+    display: flex;  
+    background-color: #EEF3F8;
+    align-items: center;
+    margin-left: 1%;
+    width: 90%;
+    border-radius: 3px;
+}
+.header .logoBox .search div{
+    /* //background-color: rgb(225, 129, 65); */
+    /* //color: aquamarine; */
+    /* font-size: 50px; */
+    height: 80%;
+    align-items: center;
+    display: flex;
+    
+    padding: .5%;
+    width:100%;
+    
+    
+}
+.search div i{
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(6, 122, 255); */
+    color: #5F6163;
+    padding: 5%;
+
+}
+.header .logoBox .search div input{
+    background-color: #EEF3F8;
+    /* color:; */
+
+    /* font-size: 50px; */
+    border: none;
+    width: 100%;
+    outline: none;
+    right: 0;  
+}
+
+/* Navigation Icons */
+
+.header .navicon{
+    padding-top: 2px;
+    padding-left: 15%;
+    margin-left: auto;
+    display: flex;
+    width: 52%;
+    height: 100%;
+    align-items: center;
+   justify-content: center;
+    /* background-color: blueviolet; */
+    
+}
+.navicon div {
+    display: flex;
+   /* background: rgb(182, 101, 101); */
+   width: 100%;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   
+   opacity: 0.7;
+   /* outline: 1px solid salmon; */
+}
+
+.navicon div i{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 25px;
+    flex-direction: column;
+    /* background-color: azure; */
+    width:100%;
+    /* opacity: 0.7; */
+    
+}
+.navicon div:hover{
+    opacity:1;
+    border-bottom: black 1px groove;
+}
+#caret{
+    font-size: 115%;
+    display: flex;
+    width:20%;
+    height: fit-content;
+}
+.navicon div img{
+   height: 30x;
+   width: 30px;
+    border-radius: 50%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.navicon div span{
+    width: 100%;
+    display: flex;
+    /* background: red; */
+    font-size: .8rem;
+   /* outline: 1px solid black; */
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header .navi{
+    /* //margin-left: auto; */
+    padding-top: 2px;
+    display: flex;
+    width: 15%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    /* background-color: orange; */
+    border-left: #F3F2EF solid 2px;
+    
+}
+.navi div {
+    display: flex;
+   /* background: rgb(182, 101, 101); */
+   width: 100%;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   opacity: .8;
+   
+}
+.navi div:hover{
+    opacity: 1;
+}
+#dnh{
+    opacity: 1;
+}
+.navi div i{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 200%;
+    flex-direction: column;
+    /* background-color: azure; */
+    text-align: center;
+    width:100%
+    
+}
+
+.navi div span{
+    width: 100%;
+    display: flex;
+    /* background: red; */
+    font-size: .8rem;
+   /* outline: 1px solid black; */
+    align-items: center;
+    justify-content: center;
+    /* justify-self: center; */
+    text-align: center;
+}
+
+
+/* Middle page css starts here */
+.body{
+    margin:auto;
+    margin-top: 3%;
+    width: 85%;
+    /* background-color: blue; */
+    display: flex; 
+}
+/* left bar starts from here */
+.left{
+    width:25%;
+    /* background-color: aquamarine; */
+}
+.box{
+    background-color: #FFFFFF ;
+    height: fit-content;
+    margin: 0% 2%;
+    border: #EBEBEB 2px solid;
+    /* padding: 2%; */
+    /* border-radius: 2%; */
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+
+
+.box .img{
+    height: 50px;
+    width:100%;
+    /* position: absolute; */
+    background:rgb(148, 148, 148) url("./image/pastel-blue-vignette-concrete-textured-background.jpg") no-repeat fixed center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 0 0;
+    /* flex-direction: column-reverse; */
+    
+}
+
+
+.img img{
+    /* margin: auto; */
+    /* align-self: center; */
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    margin-top:20% ;
+    /* margin-left: 30%; */
+    /* position: relative; */
+    
+    outline: 2px solid #FFFFFF;
+    
+}
+
+.desi{
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    background-color: #FFFFFF;
+    padding-top: 50px;
+    align-items: center;
+    border-bottom: #EBEBEB 2px solid;
+
+}
+
+.name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 5px;
+}
+.job{
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: 800; */
+    color:gray;
+    font-size: small; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: darkgreen; */
+    height: fit-content;
+    padding: 5px;
+}
+
+.div-card{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background-color: #FFFFFF;
+    /* padding: 5%; */
+    /* align-items: center; */
+    border-bottom: #EBEBEB 2px solid;
+    cursor: pointer;
+
+}
+.div-card div{
+    padding: 3px;
+}
+.txt-blue{
+    color: rgb(3, 56, 228);
+}
+.group-h{
+    display: flex;
+    flex-direction: column;
+    /* background-color: darkolivegreen; */
+}
+
+.group-v{
+    display: flex;
+    /* margin-left:auto; */
+}
+.ml{
+    display: flex;
+    margin-left: auto;
+    /* justify-content: center;
+    align-items: center; */
+}
+.sm-font{
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: 800; */
+    color:gray;
+    font-size: small; 
+    /* background-color: darkgreen; */
+}
+.bold{
+    font-weight: 700;
+    color: black;
+}
+.div-card div:hover{
+    background-color: rgba(230, 230, 230, 0.747);
+}
+.recent{
+    padding: 5px;;
+}
+.justify{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Center Content Starts from here */
+.center{
+    width:50%;
+    /* background-color: brown; */
+}
+.center .box {
+    height: fit-content;
+
+}
+.center .box .div-card{
+    background-color: transparent;
+    padding: 10px;;
+    /* background-color: aquamarine; */
+    justify-content: center;
+    height: 80px;
+    /* align-items: center; */
+}
+.circle-img{
+    height: 70px;
+    width: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* border-radius: 50%; */
+
+}
+.circle-img img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    
+}
+.center .box .div-card div{
+    /* justify-content: center; */
+    align-items: center;
+}
+.cred{
+    background-color: red;
+}
+
+.int{
+    width:100%;
+    height: 100%;
+    /* outline: 1px solid black; */
+
+}
+.spacebetween{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: larger;
+}
+.int input{
+    height: 100%;
+    width: 100%;
+    outline:none;
+    border:1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+}
+/* right bar starts from here */
+.right{
+    width:25%;
+    /* background-color: darkcyan; */
+}
+.right .box{
+    height: 100px;
+}
+.right .box .div-card{
+    padding-top: 20px;
+    background:transparent;
+    
+}
