@@ -239,8 +239,9 @@ header{
     height: 50px;
     width:100%;
     /* position: absolute; */
-    background:rgb(148, 148, 148) url("./image/pastel-blue-vignette-concrete-textured-background.jpg") no-repeat fixed center;
+    background:rgb(148, 148, 148) url("./image/bg.jpg") no-repeat fixed center;
     display: flex;
+    background-size: cover;
     align-items: center;
     justify-content: center;
     border-radius: 15px 15px 0 0;
